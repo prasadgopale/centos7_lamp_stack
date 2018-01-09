@@ -1,5 +1,5 @@
 FROM centos:centos7
-
+MAINTAINER Prasad Gopale <prasadgopale@gmail.com>
 # Install varioius utilities
 RUN yum -y install curl wget unzip git vim mlocate \
 iproute python-setuptools hostname inotify-tools yum-utils which \
